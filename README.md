@@ -7,20 +7,20 @@ Median performed better than mean because the dataset contained skewed features 
 Therefore, median and mode imputation were selected as the final missing value handling techniques.
 
 Categorical Encoding Techniques
-Label Encoding
-One-Hot Encoding
-Ordinal Encoding
-Frequency Encoding
-Target Encoding
+Label Encoding,
+One-Hot Encodin,g
+Ordinal Encoding,
+Frequency Encodin,g
+Target Encoding,
 Label Encoding worked well for binary variables such as Loan_Status.One-Hot Encoding was suitable for nominal features like Gender where no order exists.Ordinal Encoding was effective for ordered features such as Education.
 One-Hot Encoding and Target Encoding provided better representation of categorical variables without introducing misleading order relationships.
 
 Feature Scaling Analysis
 Four feature scaling methods were applied:
-Min-Max Scaling
-Max Absolute Scaling
-Vector Normalization
-Z-Score Standardization
+Min-Max Scaling,
+Max Absolute Scaling,
+Vector Normalization,
+Z-Score Standardization,
 Z-Score Standardization (StandardScaler) was found to be most effective because it centers the data around mean 0 with standard deviation 1. This improves model convergence and ensures fair contribution of all features.
 finally i conclude that , StandardScaler was selected for final modeling.
 
