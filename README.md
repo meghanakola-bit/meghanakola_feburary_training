@@ -6,17 +6,13 @@ Median performed better than mean because the dataset contained skewed features 
 Therefore, median and mode imputation were selected as the final missing value handling techniques.
 
 2.Categorical Encoding Techniques
-Multiple encoding techniques were implemented including:
 Label Encoding
 One-Hot Encoding
 Ordinal Encoding
 Frequency Encoding
 Target Encoding
-Label Encoding worked well for binary variables such as Loan_Status.
-One-Hot Encoding was suitable for nominal features like Gender where no order exists.
-Ordinal Encoding was effective for ordered features such as Education.
-Frequency and Target Encoding were useful for capturing category importance in features with multiple levels.
-Among these, One-Hot Encoding and Target Encoding provided better representation of categorical variables without introducing misleading order relationships.
+Label Encoding worked well for binary variables such as Loan_Status.One-Hot Encoding was suitable for nominal features like Gender where no order exists.Ordinal Encoding was effective for ordered features such as Education.
+One-Hot Encoding and Target Encoding provided better representation of categorical variables without introducing misleading order relationships.
 
 3. Feature Scaling Analysis
 Four feature scaling methods were applied:
