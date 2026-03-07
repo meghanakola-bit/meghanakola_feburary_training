@@ -126,7 +126,11 @@ After training and testing the models, their performance was compared using the 
     Model           |   R² Score    |      MSE        |       RMSE       |         MAE           
   
  Linear Regression  |  0.741083     |  	6.673137      |  2.583242	       |   1.541072,
+
+ 
  Decision Tree      |   0.790244	   |     5.406107	   |     2.325104	    |   1.118333 ,
+
+ 
  Random Forest      |  0.515198	    |   12.494917	    |  3.534815	       |    1.512017
 
 
