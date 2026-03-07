@@ -134,7 +134,7 @@ After training and testing the models, their performance was compared using the 
  Random Forest      |  0.515198	    |   12.494917	    |  3.534815	       |    1.512017
 
 
-Replace the values with the results obtained from your notebook.
+
 
 ## Conclusion
 
